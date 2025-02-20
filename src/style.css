@@ -18,6 +18,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
+h1 {
+    color: #c71919;
+}
+
 h2 {
     margin-bottom: 20px;
     color: #333;
@@ -95,7 +99,7 @@ th, td {
 }
 
 th {
-    background-color: #8B0000;
+    background-color: #c71919;
     color: white;
     font-weight: bold;
 }
@@ -109,7 +113,7 @@ th {
 }
 
 .gpa-table th {
-    background-color: #8B0000;
+    background-color: #c71919;
 }
 
 @media screen and (max-width: 768px) {
@@ -123,4 +127,12 @@ th {
     input, button {
         font-size: 14px;
     }
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: auto;
 }

@@ -27,6 +27,8 @@ const Home = () => {
 
   return (
     <div className="home-container">
+      <img src="../Logo_Đại_học_Bách_Khoa_Hà_Nội.svg" className="logo" />
+      <h1>Cổng thông tin Đại học Bách Khoa Hà Nội</h1>
       <h2>Bảng điểm sinh viên</h2>
       <h3>{studentInfo.name} - MSSV: {studentInfo.mssv}</h3>
 
